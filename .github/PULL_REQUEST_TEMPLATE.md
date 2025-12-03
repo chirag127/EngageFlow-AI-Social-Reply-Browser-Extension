@@ -1,50 +1,48 @@
-<!--
-Thank you for your contribution to EngageFlow-AI-Social-Reply-Browser-Extension!
+# Pull Request Template
 
-Please provide a clear and concise description of your changes.
-PR Title Format: [Type] - Brief description (e.g., [Feature] - Add support for Reddit replies)
+## Type of Change
+
+<!--
+Please mark the relevant options in this section.
 -->
 
-## 🎯 Purpose
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Documentation update
+- [ ] Refactor code
+- [ ] Performance optimization
+- [ ] Chore (e.g. build process, tooling, etc.)
 
-<!-- Describe the primary goal of this pull request. What problem does it solve? -->
+## Description
 
+<!--
+Please provide a clear and concise description of your change. What does this PR do? Why? What was the approach?
+-->
 
+## Related Issues
 
-## 🔗 Related Issue
+<!--
+Link to any related issues here. Use `closes #issue_number` to auto-close issues upon merging.
+-->
 
-<!-- Link to the issue that this PR addresses. Use keywords like "Fixes #123" or "Closes #123". -->
+## Checklist
 
-- Fixes: #
+<!--
+Go through all the following points, and mark them if they are completed. Features or bug fixes are not fully complete without these.
+-->
 
-## 🛠️ Implementation Details
-
-<!-- Describe the technical changes you made. How does your solution work? -->
-
-- 
-- 
-- 
-
-## 📸 Screenshots / Demos
-
-<!-- If your changes are visual, please provide before and after screenshots or a short GIF/video. -->
-
-**Before:**
-
-**After:**
-
-
-## ✅ Pre-Merge Checklist
-
-<!-- Go through this checklist and mark the items that are applicable. -->
-
-- [ ] I have read the [**CONTRIBUTING.md**](https://github.com/chirag127/EngageFlow-AI-Social-Reply-Browser-Extension/blob/main/.github/CONTRIBUTING.md) document.
-- [ ] My code follows the project's coding standards and style guides.
+- [ ] My code follows the code style of this project.
 - [ ] I have performed a self-review of my own code.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have made corresponding changes to the documentation (if applicable).
+- [ ] I have made corresponding changes to the documentation.
 - [ ] My changes generate no new warnings or errors.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
-- [ ] All new and existing tests passed locally with my changes.
-- [ ] I have checked for and addressed any security vulnerabilities in accordance with the [**SECURITY.md**](https://github.com/chirag127/EngageFlow-AI-Social-Reply-Browser-Extension/blob/main/.github/SECURITY.md) policy.
-- [ ] This PR is ready for review and does not contain work-in-progress commits.
+- [ ] New and existing unit tests pass locally with my changes.
+- [ ] Any dependent changes have been merged and published.
+
+## Additional Information
+
+<!--
+Any other context about the pull request. For example, screenshots, GIFs, or a description of the environment.
+-->
