@@ -1,77 +1,79 @@
 ---
-name: Bug Report
-about: Report an issue with the EngageWise Browser Extension
-title: "Bug: "
-labels: bug
-assignees:
+name: 🐛 Bug Report
+about: Report a technical defect or unexpected behavior in the browser extension.
+title: "[BUG]: Short, Descriptive Title of the Issue"
+labels: ['bug', 'triage']
+assignees: ['chirag127']
+---
 
+Thank you for helping us maintain the integrity of **EngageFlow-AI-Social-Reply-Browser-Extension**.
 
-body:
-  - type: markdown
-    attributes:
-      value: |+
-        Please provide a clear and concise description of the bug.
-        
-        **Thank you for helping us improve EngageWise!**
+Before submitting, please ensure you have checked the [Troubleshooting Guide](https://github.com/chirag127/EngageFlow-AI-Social-Reply-Browser-Extension/wiki/Troubleshooting) and searched existing [Issues](https://github.com/chirag127/EngageFlow-AI-Social-Reply-Browser-Extension/issues) to prevent duplication.
 
-        **Repository:** `https://github.com/chirag127/EngageWise-AI-Social-Media-Reply-Browser-Extension`
+## 1. Environment & Setup
+
+Please provide details about your environment where the bug occurred.
+
+- **Browser:** [e.g., Chrome 120, Firefox 121, Edge 120]
+- **Operating System:** [e.g., macOS Ventura, Windows 11, Ubuntu 22.04]
+- **Extension Version:** [e.g., v1.2.5 (Check the extension details page in your browser)]
+- **Target Platform (where the bug occurred):** [e.g., X/Twitter, LinkedIn, Reddit, or Extension Popup UI]
+- **API Status:** [e.g., Using locally configured Gemini API key, or Managed API service]
 
 ---
 
+## 2. Description of the Bug
 
-### Is this a regression?
-
-(Were you able to reproduce it in a previous version?)
-
----
-
-### Describe the bug
-
-(Provide a clear and detailed description of the bug. What happened? What did you expect to happen?)
-
----
-
-### To Reproduce
-
-(Steps to reproduce the behavior:
-
-1. Go to `[URL of the social platform or specific page]`
-2. Perform action `[Specific action taken]`
-3. Observe `[What you observed]`
-
----
+A clear and concise description of what the bug is.
 
 ### Expected Behavior
-
-(Describe what you expected to happen.)
-
----
+What did you expect the extension to do?
 
 ### Actual Behavior
-
-(Describe what actually happened.)
-
----
-
-### Environment
-
-*   **Browser:** (e.g., Chrome 126, Firefox 127)
-*   **Extension Version:** (e.g., 1.2.3 - Check `chrome://extensions/` or `about:addons`)
-*   **Operating System:** (e.g., Windows 11, macOS Sonoma 14.5)
-*   **Social Platform:** (e.g., X, LinkedIn, Reddit)
+What did the extension actually do?
 
 ---
 
-### Screenshots
+## 3. Steps to Reproduce
 
-(If applicable, add screenshots to help explain your problem. Attach them below.)
+Provide the minimum necessary steps to reproduce the issue.
+*Please be precise, numbering the steps.* 
+
+1.  ...
+2.  ...
+3.  ...
+
+**Example Scenario (If applicable):**
+*If the bug involves generating a reply, what was the source text/post, and what reply prompt/style did you select?*
 
 ---
 
-### Additional Context
+## 4. Technical Diagnostics & Screenshots
 
-(Add any other context about the problem here. For example, browser console logs, specific account details if relevant and anonymized, etc.)
+Please provide relevant technical information.
 
-javascript
-// Paste browser console logs here if relevant
+- **Console/Developer Tool Logs (CRITICAL):**
+  *   Open the browser Developer Tools (`F12`).
+  *   Select the Console tab.
+  *   Reproduce the bug.
+  *   Copy the full error stack trace and relevant warnings.
 
+<details>
+<summary>Click to Expand Console Logs</summary>
+
+
+[PASTE LOGS HERE]
+
+
+</details>
+
+- **Screenshots or Screen Recording:**
+  *   If possible, include a screenshot or short GIF/video demonstrating the issue.
+
+---
+
+## 5. Potential Cause or Solution (Optional)
+
+If you have technical insight, please suggest the root cause or a potential fix.
+
+- [ ] I have read and adhere to the [Contributing Guidelines](https://github.com/chirag127/EngageFlow-AI-Social-Reply-Browser-Extension/blob/main/.github/CONTRIBUTING.md).
